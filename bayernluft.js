@@ -7,7 +7,7 @@ let poll = 10000; //polling time in MS
 
 // devices
 const device = {
-    1: { ip: "192.168.0.34", port: "80" }
+    1: { ip: "192.168.0.34", port: "80" },
 };
 
 // Finger weg !

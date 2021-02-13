@@ -30,8 +30,9 @@ Ein neues JS Script in iobroker erstellen und das Script aus "script-bwm-script.
 
 Folgendes muss eingetragen werden:
 1. Standardpfad: Der Pfad unter welchem das Gerät erscheinen soll
-2. Ip und Port: Standardport ist die 80
-3. Intervall (polling): In welchem Intervall sollen die Daten geholt werden (5-60 Sekundne möglich, eingabe allerdings in Millisekunden)
+2. Intervall (polling): In welchem Intervall sollen die Daten geholt werden (5-60 Sekundne möglich, eingabe allerdings in Millisekunden)
+3. Ip und Port: Standardport ist die 80
+
 
 ![pic5.png](/admin/pic5.png)
 
