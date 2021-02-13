@@ -1,0 +1,35 @@
+{
+    "data": {
+        "date": "~Date~",
+        "time": "~Time~",
+        "name": "~DeviceName~",
+        "mac": "~MAC~",
+        "local_IP": "~LocalIP~",
+        "rssi": "~RSSI~",
+        "fw_MainController": "~FW_MainController~",
+        "fw_WiFi": "~FW_WiFi~"
+    },
+    "parameter": {
+        "temperature_In": "~Temp_In~",
+        "temperature_Out": "~Temp_Out~",
+        "temperature_Fresh": "~Temp_Fresh~",
+        "rel_Humidity_In": "~rel_Humidity_In~",
+        "rel_Humidity_Out": "~rel_Humidity_Out~",
+        "abs_Humidity_In": "~abs_Humidity_In~",
+        "abs_Humidity_Out": "~abs_Humidity_Out~",
+        "efficiency": "~Efficiency~",
+        "humidity_Transport": "~Humidity_Transport~"
+    },
+    "states": {
+        "speed_In": "~Speed_In~",
+        "speed_Out": "~Speed_Out~",
+        "antiFreeze": "~Speed_AntiFreeze~",
+        "SystemOn": "~_SystemOn~",
+        "AntiFreeze": "~_FrostschutzAktiv~",
+        "Fixed_Speed": "~_Frozen~",
+        "Defrosting": "~_AbtauMode~",
+        "Landlord_Mode": "~_VermieterMode~",
+        "Cross_Ventilation": "~_QuerlueftungAktiv~",
+        "Timer_active": "~_MaxMode~"
+    }
+}
