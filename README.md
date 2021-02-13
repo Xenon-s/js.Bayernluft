@@ -33,7 +33,7 @@ Folgendes muss eingetragen werden:
 2. Ip und Port: Standardport ist die 80
 3. Intervall (polling): In welchem Intervall sollen die Daten geholt werden (5-60 Sekundne möglich, eingabe allerdings in Millisekunden)
 
-![pic4.png](/admin/pic4.png)
+![pic5.png](/admin/pic5.png)
 
 **Falls euch meine Arbeit gefällt :** <br>
 
