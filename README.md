@@ -1,22 +1,15 @@
-Schnittstelle Bayernluft WLAN-Modul für ioBroker
-
-**Falls euch meine Arbeit gefällt :** <br>
-
-[![Paypal Donation](https://img.shields.io/badge/paypal-donate%20%7C%20spenden-blue.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3EYML5A4EMJCW&source=url)
-
-
-# js.BWM-Script: Bewegungsmelderscript für ioBroker (Version 0.2)
+# Schnittstelle Bayernluft WLAN-Modul für ioBroker
 Diese Schnittstelle ermöglicht es, Lüftungsgeräte der Firma Bayernluft (Bavariavent) in den ioBroker zu integrieren. Es ist sowhl möglich die Live-Werte auszulesen, als auch das Gerät zu steuern.
 
 ## Was sollte beachtet werden?
 Um das Script nutzen zu können, muss das export-Template geändert werden. Ich habe die Vorlage hier auf github liegen.
 
 ## Wie wird das Template geändert?
-1. Zuerst muss die Oberfläche des jeweiligen Gerätes per IP auferufen werden 
-2. Im nächsten Schritt muss auf das Einstellungsrad geklickt werden <br> ![pic1.png](/admin/pic1.png)
-3. Runterscrollen bis zum Punkt **Experten Modus** <br> ![pic2.png](/admin/pic2.png)
-4. Die Datei "export.txt" löschen (am besten vorher per Klick auf **Download** sichern) <br> ![pic3.png](/admin/pic3.png)
-5. Die neue Datei "export.txt" auswählen und hochladen <br> ![pic4.png](/admin/pic4.png)
+1. Zuerst muss die Oberfläche des jeweiligen Gerätes per IP auferufen werden <br>
+2. Im nächsten Schritt muss auf das Einstellungsrad geklickt werden <br> ![pic1.png](/admin/pic1.png) <br>
+3. Runterscrollen bis zum Punkt **Experten Modus** <br> ![pic2.png](/admin/pic2.png) <br>
+4. Die Datei "export.txt" löschen (am besten vorher per Klick auf **Download** sichern) <br> ![pic3.png](/admin/pic3.png) <br>
+5. Die neue Datei "export.txt" auswählen und hochladen <br> ![pic4.png](/admin/pic4.png) <br>
 
 Das Ist notwendig, damit die Daten im JSON-Format vorliegen und im ioBroker verarbeitet werden können!
     
@@ -42,9 +35,12 @@ Folgendes muss eingetragen werden:
 
 ![pic4.png](/admin/pic4.png)
 
+**Falls euch meine Arbeit gefällt :** <br>
+
+[![Paypal Donation](https://img.shields.io/badge/paypal-donate%20%7C%20spenden-blue.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3EYML5A4EMJCW&source=url)
+
 
 ## Changelog
-
 
 ### 0.1 (2021-02-13)
 * (xenon-s) initial commit
